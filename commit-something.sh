@@ -1,13 +1,6 @@
+#!/bin/bash
 
-Aasda:wq
-B
-A:asdasdasdaq
-B
-B
-B
-B
-B
-B
-
-
-echo TEST >> README.md
+git checkout a
+echo "TEST" >> README.md
+git commit -a -m 'TEST'
+git push origin a
